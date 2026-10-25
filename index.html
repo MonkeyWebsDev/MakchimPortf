@@ -147,9 +147,8 @@ footer{padding:30px 0 90px;color:var(--muted);font-size:14px;border-top:1px soli
 // Подходят ссылки YouTube (обычные, Shorts, youtu.be), TikTok (…/video/цифры) и Instagram (/reel/… или /p/…).
 // Формат (вертикальный или горизонтальный) определяется сам по ссылке. Пустые '' это заглушки: добавляй и удаляй сколько нужно.
 const SECTIONS=[
- {id:'reels',def:'v',title:'Рилсы',text:'Короткие вертикальные ролики для крупных каналов.',item:'Рилс',author:'Блогер',links:['https://www.youtube.com/shorts/lGeeCQFnUXc','https://www.youtube.com/shorts/xpLgHwDVQck','https://www.youtube.com/shorts/XN-26Y6qHNo','https://www.youtube.com/shorts/uGvBFMqiCTo','https://www.youtube.com/shorts/MIV5enbWoqw']},
- {id:'long',def:'h',title:'Длинные ролики и подкасты',text:'Полноценные выпуски на YouTube-каналах.',item:'Выпуск',author:'Блогер',links:['https://www.youtube.com/watch?v=c9CYo2IXSNM&t=10s','https://www.youtube.com/watch?v=zfMDqnTqgeA','https://www.youtube.com/watch?v=iZL99qvDOXU','https://www.youtube.com/watch?v=cGsNoMh7TfY']},
- {id:'own',def:'h',title:'Мои проекты',text:'Собственные видео.',item:'Проект',author:'Личный канал',links:['https://vt.tiktok.com/ZSgQG55bt/','https://vt.tiktok.com/ZSgQGFbrk/','https://vt.tiktok.com/ZSgQGhceB/','https://vt.tiktok.com/ZSgQGjpqV/']}
+ {id:'reels',def:'v',title:'Рилсы',text:'Короткие вертикальные ролики для крупных каналов.',item:'Рилс',author:'Блогер',links:['https://www.youtube.com/shorts/lGeeCQFnUXc','https://www.youtube.com/shorts/XN-26Y6qHNo', 'https://www.youtube.com/shorts/xpLgHwDVQck','https://www.youtube.com/shorts/uGvBFMqiCTo','https://www.youtube.com/shorts/MIV5enbWoqw']},
+ {id:'long',def:'h',title:'Длинные ролики и подкасты',text:'Полноценные выпуски на YouTube-каналах.',item:'Выпуск',author:'Блогер',links:['https://www.youtube.com/watch?v=c9CYo2IXSNM&t=10s','https://www.youtube.com/watch?v=zfMDqnTqgeA','https://www.youtube.com/watch?v=iZL99qvDOXU','https://www.youtube.com/watch?v=cGsNoMh7TfY']}
 ];
 // =====================================================================
 function parse(u){
